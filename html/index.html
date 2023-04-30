@@ -1,0 +1,126 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <title>Chervic Developers Concept</title>
+    </head>
+    <body>
+        <div class= "form-wrap">
+            <h2>Registration Form</h2>
+            <p>It's competely free, just takes a minutes</p>    
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            <label type="text">Name</label>
+                        </td>
+                        <td>
+                            <input type="text" id= "Name" name="Username">
+                        </td>
+                    <tr>
+                        <td>
+                            <label type="email">Email</label>
+                        </td>
+                        <td>
+                            <input type="text" id="email" name="usermail">
+                            <button type="button">Check</button>
+                        </td>
+                    </tr>  
+                    <tr>  
+                        <td>
+                            <label type= "age">Age</label>
+                        </td>
+                        <td>
+                            <input type="text" name="userage" id= "age" size="2" maxlength="2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Country</label>
+                        </td>
+                        <td>
+                            <input type= "text" value="Nigeria" name="country" disabled>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label type= "telNo">Phone Number</label>
+                        </td>
+                        <td>
+                            <input type="tel" id="telNo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label type ="pass">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" id="pass">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label type ="res">Resume</label>
+                        </td>
+                        <td>
+                            <input type="file" id="res">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Hobbies</label>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="checkbox" checked> Writing
+                            </label>
+                            <label>
+                                <input type="checkbox"> Handicraft
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Gender</label>
+                        </td>
+                        <td>
+                            <label>
+                                <input type= "radio" value="f" name="gender">Female</label>
+                            <label>
+                                <input value= "m" type="radio" name="gender">Male</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label type= "City">City</label>
+                        </td>
+                        <td>
+                            <select id="State" name= "State">
+                                <option disabled selected>--Choose State--</option>                          
+                                <option>Enugu</option>
+                                <option>Anambra</option>
+                                <option>Abuja</option>
+                                <option>Abia</option>
+                                <option>Lagos</option>
+                                <option>Rivers</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label> Address </label>
+                        </td>
+                        <td>
+                            <textarea rows="4" cols="40"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <input type="checkbox" name="checkbox" value="check" id="agree" /> 
+                            I have read and agree to the Terms and Conditions and Privacy Policy <br>
+                <input type="Submit" name="Submit" value="Submit" />
+            </form>                
+        </div>
+    </body>
+</html>
